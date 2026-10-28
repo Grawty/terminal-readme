@@ -1,0 +1,20 @@
+{
+  "title": "dev@laptop: ~/projects",
+  "theme": "light",
+  "width": 680,
+  "prompt": ">",
+  "steps": [
+    {
+      "command": "git log --oneline -1",
+      "output": [
+        [{ "text": "a1b2c3d ", "color": "orange" }, { "text": "ship it" }]
+      ]
+    },
+    {
+      "command": "npm test",
+      "output": [
+        [{ "text": "pass ", "color": "green" }, { "text": "61 tests" }]
+      ]
+    }
+  ]
+}

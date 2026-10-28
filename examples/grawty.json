@@ -1,0 +1,26 @@
+{
+  "title": "grawty@localhost: ~",
+  "theme": "dark",
+  "steps": [
+    {
+      "command": "whoami",
+      "output": [
+        [{ "text": "Mete", "color": "blue" }, { "text": "  · Turkey" }]
+      ]
+    },
+    {
+      "command": "cat focus.txt",
+      "output": ["bots that talk to people.", "tools that talk to the web."]
+    },
+    {
+      "command": "./stack --list",
+      "output": [
+        { "label": "code", "color": "orange", "text": "c# · .net · php · javascript · typescript · node.js · python" },
+        { "label": "", "text": "html · css · discord.js · selenium" },
+        { "label": "data", "color": "blue", "text": "mysql · mssql · t-sql · postgresql" },
+        { "label": "design", "color": "violet", "text": "3ds max · photoshop" },
+        { "label": "tools", "color": "red", "text": "git · github · github actions · docker" }
+      ]
+    }
+  ]
+}

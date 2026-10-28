@@ -1,0 +1,24 @@
+{
+  "title": "you@localhost: ~",
+  "theme": "dark",
+  "steps": [
+    {
+      "command": "whoami",
+      "output": [
+        [{ "text": "Your Name", "color": "blue" }, { "text": "  · Your Country" }]
+      ]
+    },
+    {
+      "command": "cat focus.txt",
+      "output": ["one line about what you build.", "one line about how you build it."]
+    },
+    {
+      "command": "./stack --list",
+      "output": [
+        { "label": "code", "color": "orange", "text": "javascript · typescript · python" },
+        { "label": "data", "color": "blue", "text": "postgresql · redis" },
+        { "label": "tools", "color": "red", "text": "git · docker" }
+      ]
+    }
+  ]
+}
