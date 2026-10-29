@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="372" viewBox="0 0 760 372" role="img" aria-label="Terminal window: grawty@localhost: ~">
+  <title>grawty@localhost: ~</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Consolas, "DejaVu Sans Mono", monospace; font-size: 15px; }
+    .c-text { fill: #e6edf3; }
+    .c-gray { fill: #8b949e; }
+    .c-green { fill: #7ee787; }
+    .c-blue { fill: #79c0ff; }
+    .c-orange { fill: #ffa657; }
+    .c-red { fill: #ff7b72; }
+    .c-violet { fill: #d2a8ff; }
+    .show { opacity: 0; animation: show 0.01s forwards; }
+    .type { width: 0; }
+    .caret { opacity: 0; animation: show 0.01s forwards, blink 1s steps(1) infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes type { to { width: var(--w); } }
+    @keyframes blink { 50% { fill-opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .show, .caret { animation: none !important; opacity: 1; }
+      .type { animation: none !important; width: var(--w); }
+    }
+  </style>
+  <defs>
+    <clipPath id="c0"><rect class="type" x="42" y="62" height="26" style="--w:59px;animation:type 0.50s steps(6, end) 0.50s forwards"/></clipPath>
+    <clipPath id="c1"><rect class="type" x="42" y="120" height="26" style="--w:123px;animation:type 0.85s steps(13, end) 2.15s forwards"/></clipPath>
+    <clipPath id="c2"><rect class="type" x="42" y="200" height="26" style="--w:132px;animation:type 0.90s steps(14, end) 4.50s forwards"/></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="759" height="371" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 38 V10.5 a10 10 0 0 1 10 -10 H749.5 a10 10 0 0 1 10 10 V38 Z" fill="#161b22"/>
+  <line x1="0" y1="38.5" x2="760" y2="38.5" stroke="#30363d"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="20" r="6" fill="#27c93f"/>
+  <text x="380" y="25" text-anchor="middle" class="c-gray" style="font-size:13px">grawty@localhost: ~</text>
+
+  <text x="24" y="80" class="c-green show" style="animation-delay:0.50s">$</text>
+  <text x="42" y="80" class="c-text" clip-path="url(#c0)">whoami</text>
+  <text x="24" y="104" class="show" xml:space="preserve" style="white-space:pre;animation-delay:1.50s"><tspan class="c-blue">Mete</tspan><tspan class="c-gray">  · Turkey</tspan></text>
+  <text x="24" y="138" class="c-green show" style="animation-delay:2.15s">$</text>
+  <text x="42" y="138" class="c-text" clip-path="url(#c1)">cat focus.txt</text>
+  <text x="24" y="162" class="show" xml:space="preserve" style="white-space:pre;animation-delay:3.50s"><tspan class="c-gray">bots that talk to people.</tspan></text>
+  <text x="24" y="184" class="show" xml:space="preserve" style="white-space:pre;animation-delay:3.85s"><tspan class="c-gray">tools that talk to the web.</tspan></text>
+  <text x="24" y="218" class="c-green show" style="animation-delay:4.50s">$</text>
+  <text x="42" y="218" class="c-text" clip-path="url(#c2)">./stack --list</text>
+  <text x="24" y="242" class="show" xml:space="preserve" style="white-space:pre;animation-delay:5.90s"><tspan class="c-orange">code</tspan></text>
+  <text x="96" y="242" class="show" xml:space="preserve" style="white-space:pre;animation-delay:5.90s"><tspan class="c-gray">c# · .net · php · javascript · typescript · node.js · python</tspan></text>
+  <text x="24" y="264" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.25s"><tspan class="c-gray"></tspan></text>
+  <text x="96" y="264" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.25s"><tspan class="c-gray">html · css · discord.js · selenium</tspan></text>
+  <text x="24" y="286" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.60s"><tspan class="c-blue">data</tspan></text>
+  <text x="96" y="286" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.60s"><tspan class="c-gray">mysql · mssql · t-sql · postgresql</tspan></text>
+  <text x="24" y="308" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.95s"><tspan class="c-violet">design</tspan></text>
+  <text x="96" y="308" class="show" xml:space="preserve" style="white-space:pre;animation-delay:6.95s"><tspan class="c-gray">3ds max · photoshop</tspan></text>
+  <text x="24" y="330" class="show" xml:space="preserve" style="white-space:pre;animation-delay:7.30s"><tspan class="c-red">tools</tspan></text>
+  <text x="96" y="330" class="show" xml:space="preserve" style="white-space:pre;animation-delay:7.30s"><tspan class="c-gray">git · github · github actions · docker</tspan></text>
+  <text x="24" y="358" class="c-green show" style="animation-delay:7.95s">$</text>
+  <rect class="caret" x="42" y="345" width="9" height="16" fill="#e6edf3" style="animation-delay:7.95s,8.05s"/>
+</svg>

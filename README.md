@@ -7,6 +7,14 @@ can break later: GitHub just shows an image.
 Commands are typed one by one, the output appears line by line and a cursor blinks at the end. Visitors with
 "reduce motion" turned on see the finished terminal right away.
 
+## Preview
+
+<p align="center">
+  <img src="./docs/preview.svg" alt="Terminal preview" width="760">
+</p>
+
+Generated from [`examples/grawty.json`](examples/grawty.json).
+
 ## Use it
 
 1. Use this repo as a template or clone it.
@@ -35,7 +43,7 @@ Needs Node 18 or newer. GitHub caches images, so after replacing the file do a h
   "title": "you@localhost: ~",
   "theme": "dark",
   "steps": [
-    { "command": "whoami", "output": ["Your Name"] }
+    { "command": "whoami", "output": ["Mete"] }
   ]
 }
 ```
